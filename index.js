@@ -101,6 +101,7 @@ percent.addEventListener('click', () => {
 })
 
 clear.addEventListener('click', ()=>{
+    result.innerHTML = 0;
     firstValue = "";
     isFirstValue = false;
     secondValue = "";
